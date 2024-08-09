@@ -15,6 +15,7 @@ const app = createApp({
                 content: this.todoInput,
                 state: false
             });
+            this.todoInput = ''
         }
         else {
             alert ("please fill input first!")
